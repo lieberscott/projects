@@ -20,6 +20,13 @@ hr {
   width: 90%;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+
 .blurb {
   font-size: 13px;
 }
@@ -35,8 +42,9 @@ hr {
 }
 
 .headline {
-  display: inline-block;
+  display: block;
   font-size: 20px;
+  text-align: center;
 }
 
 .image {
@@ -87,11 +95,11 @@ hr {
   .entry {
     margin: 30px 20px;
   }
-  
+
   .nav-item {
     margin: 0;
   }
-  
+
   .picdiv {
     display: block;
     height: 200px;
@@ -99,9 +107,9 @@ hr {
     overflow: hidden;
     margin: auto;
   }
-  
+
   .title {
     text-align: center;
   }
-  
+
 }
